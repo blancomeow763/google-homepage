@@ -1,0 +1,10 @@
+header {
+    font: 13px arial, sans-serif;
+}
+
+
+.button {
+    color: white;
+    background-color: rgb(66, 133, 244);
+    border-radius: 15%;
+}
