@@ -6,22 +6,60 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
+
+li {
+    float: left;
+}
+
+li a{
+    text-align: center;
+    padding: 14px 16px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 footer {
     font: 15px arial, sans-serif;
 }
 
-#SignIn {
+#signin {
     color: white;
     background-color: rgb(66, 133, 244);
-    border-radius: 15%;
+    border-radius: 5%;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
 }
 
 #GoogleSearch {
-    border: none;
+    border: transparent;
+    cursor: pointer;
 }
 
 #Lucky {
-    border: none;
+    border: transparent;
+    cursor: pointer;
 }
 
+div.search_bar {
+    padding: 10px;
+    margin: 10px;
+}
+
+input {
+    height: 15px;
+    width: 350px;
+}
+
+input {
+    
+}
