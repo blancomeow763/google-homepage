@@ -2,9 +2,21 @@ header {
     font: 13px arial, sans-serif;
 }
 
+footer {
+    font: 15px arial, sans-serif;
+}
 
-.button {
+#SignIn {
     color: white;
     background-color: rgb(66, 133, 244);
     border-radius: 15%;
 }
+
+#GoogleSearch {
+    border: none;
+}
+
+#Lucky {
+    border: none;
+}
+
