@@ -2,6 +2,11 @@ header {
     font: 13px arial, sans-serif;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 footer {
     font: 15px arial, sans-serif;
 }
