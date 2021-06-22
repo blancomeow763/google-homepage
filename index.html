@@ -5,42 +5,42 @@
         <title>Google</title>
         <link href="styles/style.css" rel="stylesheet">
     </head>
-    
-    <header>
-        <div>
-            <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Store</a></li>
-                <li style="float:right"><a href="">Gmail</a></li>
-                <li style="float:right"><a href="">Images</a></li>
-                <li style="float:right"><button id="signin">Sign in</button></li>
-            </ul>
-        </div>
-    </header>
-    
-    <body>
-        <img src="images/google-logo.png" alt= "The Google logo">
-        <form>
-            <div class="search_bar">
-                <input><br>
+        <body>
+            <header>
+                <div>
+                    <ul>
+                        <li style="padding-top: 15px"><a href="">About</a></li>
+                        <li style="padding-top: 15px"><a href="">Store</a></li>
+                        <li style="float:right"><button id="signin">Sign in</button></li>
+                        <!--Float:right order is reversed, so you either need to adjust the order or contain the li elements within another element and float:left-->
+                        <li style="float:right; padding-top: 15px;"><a href="">Images</a></li>
+                        <li style="float:right; padding-top: 15px;"><a href="">Gmail</a></li>
+                    </ul>
+                </div>
+            </header>
+
+            <div class="logo">
+                <img src="images/google-logo.png" alt= "The Google logo">
             </div>
-        </form>
-            <div>
-                <button id="GoogleSearch">Google Search</button>
-                <button id="Lucky">I'm Feeling Lucky</button>
-            </div> 
-    
 
-    </body>
-
-    <footer>
-        <ul>
-            <li><a href="">Advertising</a></li>
-            <li><a href="">Business</a></li>
-            <li><a href="">How Search works</a></li>
-            <li><a href="">Privacy</a></li>
-            <li><a href="">Terms</a></li>
-            <li><a href="">Settings</a></li>
-        </ul>
-    </footer>
+            <form>
+                <div class="search_bar">
+                    <input><br>
+                </div>
+            </form>
+                <div class="googleLucky">
+                    <button id="GoogleSearch">Google Search</button>
+                    <button id="Lucky">I'm Feeling Lucky</button>
+                </div>
+            <footer>
+                    <ul class="footer" style="background-color:hsl(0, 0%, 92%)">
+                        <li><a href="">Advertising</a></li>
+                        <li><a href="">Business</a></li>
+                        <li><a href="">How Search works</a></li>
+                        <li style="float:right"><a href="">Settings</a></li>
+                        <li style="float: right"><a href="">Terms</a></li>
+                        <li style="float: right"><a href="">Privacy</a></li>
+                    </ul>
+            </footer>
+        </body>
 </html>
