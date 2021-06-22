@@ -58,6 +58,9 @@ footer {
 
 .search_bar {
     text-align: center;
+    padding: 10px;
+    margin: 10px;
+    
 }
 
 .googleLucky {
@@ -67,17 +70,15 @@ footer {
 #GoogleSearch {
     border: transparent;
     cursor: pointer;
-    
+    border-radius: 4px;
+    font-size: 14px;
 }
 
 #Lucky {
     border: transparent;
     cursor: pointer;
-}
-
-div.search_bar {
-    padding: 10px;
-    margin: 10px;
+    border-radius: 4px;
+    font-size: 14px;
 }
 
 input {
@@ -91,4 +92,14 @@ input {
 
 body {
     margin: 0;
+}
+
+.material-icons {
+    color: hsl(0, 0%, 40%);
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.material-icons:hover {
+    cursor: pointer;
 }
