@@ -59,8 +59,13 @@ footer {
 .search_bar {
     text-align: center;
     padding: 10px;
-    margin: 10px;
-    
+    margin: auto;
+    margin-bottom: 10px;
+    border: solid;
+    border-radius: 30px;
+    width: 500px;
+    border-color:hsl(0, 0%, 85%);
+    border-width: 1px;
 }
 
 .googleLucky {
@@ -72,6 +77,7 @@ footer {
     cursor: pointer;
     border-radius: 4px;
     font-size: 14px;
+    padding: 10px;
 }
 
 #Lucky {
@@ -79,11 +85,14 @@ footer {
     cursor: pointer;
     border-radius: 4px;
     font-size: 14px;
+    padding: 10px
 }
 
 input {
     height: 15px;
-    width: 350px;
+    width: 425px;
+    border: none;
+    outline: none;
 }
 
 .footer {
